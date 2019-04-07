@@ -10,7 +10,7 @@ public class HelloController {
 	@RequestMapping("/hello")
 	//@ResponseBody
 	public String Hello(){
-		String a= "a --merge";
+		String a= "a --merge v0.8";
 		return "index";
 	}
 }
